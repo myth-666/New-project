@@ -1,0 +1,80 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+.Home_inner_container{
+   
+    padding: 100px 30%;
+    height: 20vh;
+}
+.Header{
+    
+    padding-left: 20%;
+    padding-top: 10%;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.header_text{
+   
+    width: 10%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.Home_box{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 3px;
+    
+    justify-content: left;
+    display: flex;
+    flex-direction: column;
+}
+.Home_header{
+    
+    text-align: right;
+    margin-bottom: 20px;
+}
+.Home_header button{
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(175, 175, 175);
+}
+.Home_header button:hover{
+    background-color: rgb(150, 149, 149);
+}
+.Home_inner,.Home_inner1{
+    width: 30%;
+ 
+    display: flex;
+    flex-direction: column;
+}
+.Home_inner1 div{
+    background-color: rgb(175, 175, 175);
+    border-radius: 3px;
+    margin-bottom: 20px;
+   padding-top: 4px;
+   padding-bottom: 4px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.Home_inner div{
+    background-color: rgb(175, 175, 175);
+    border-radius: 3px;
+    margin-bottom: 20px;
+   padding-top: 4px;
+   padding-bottom: 4px;
+    text-align: center;
+    font-weight: bold;
+}
+.Home_inner div:hover{
+    background-color: rgb(150, 149, 149);
+}
+.Home_row{
+    display: flex;
+    flex-direction: row;
+    
+}

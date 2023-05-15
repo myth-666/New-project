@@ -1,0 +1,73 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+  }
+  .App_inner_container{
+  
+    padding: 100px 40%;
+    height: 20vh;
+  }
+  .Header{
+      
+    padding-left: 20%;
+    padding-top: 10%;
+    font-size: larger;
+    font-weight: bold;
+  }
+  .App_box{
+   border: 1px solid black;
+   padding-top: 40%;
+   padding-bottom: 40%;
+   padding-left: 18%;
+   padding-right:18%;
+    border-radius: 3px;
+    justify-content: right;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .App_row{
+    font-weight:bold ;
+    width: 100%;
+    
+    text-align: left; 
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px; 
+  }
+  .App_row input{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    outline: none;
+    border: none;
+    border-radius:2px ;
+    background-color: rgb(207, 205, 205);
+  }
+  .App_box button{
+    font-size: medium;
+    margin-top: 20px;
+    padding: 5px 59px;
+    font-weight:bold ;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(175, 175, 175);
+  }
+  .App_box button:hover{
+    background-color: rgb(150, 149, 149);
+  }
+  .Footer{
+    width: 100%;
+    text-align: right;
+    
+    margin-top: 20px;
+  }
+  .Footer label{
+   
+   font-weight: bold;
+
+  }
+  .Footer label:hover{
+    color: rgb(150, 149, 149);
+  }

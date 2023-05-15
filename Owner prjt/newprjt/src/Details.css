@@ -1,0 +1,84 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+.Details_inner_container{
+   
+    padding: 100px 25%;
+    height: 30vh;
+}
+.Header{
+    
+    padding-left: 20%;
+    padding-top: 10%;
+    font-size: larger;
+    font-weight: bold;
+}
+.Details_box{
+    border: 1px solid black;
+    
+    padding: 20px;
+    padding-bottom: 50px;
+    border-radius: 3px;
+   
+    
+    display: flex;
+    flex-direction: column;
+}
+.Details_inner_container_header{
+
+width: 100%;
+text-align: center;
+font-weight: bold;
+display: flex;
+flex-direction: row;
+margin-bottom: 20px;
+}
+.Back_button{
+    
+    width: 40%;
+    text-align: left;
+}
+.Back_button button{
+    border: none;
+    outline: none;
+    padding: 3px 10px;
+    border-radius: 5px;
+    background-color: rgb(196, 195, 195);
+}
+.Back_button button:hover{
+    background-color: rgb(141, 140, 140);
+}
+.Details_inner_box{
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    
+  
+}
+.Details_inner_bpx_col,.Details_inner_bpx_col1,.Details_inner_bpx_col2{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    text-align: center;
+}
+.Details_inner_bpx_col label,.Details_inner_bpx_col1 label,.Details_inner_bpx_col2 label{
+    background-color: rgb(179, 179, 179);
+    padding: 10px;
+    border: 1px solid black;
+}
+.Details_inner_bpx_col_footer,.Details_inner_bpx_col_footer1,.Details_inner_bpx_col_footer2{
+    height: 40vh;
+    font-size: small;
+}
+/* .Details_inner_bpx_col label{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.Details_inner_bpx_col1 label,.Details_inner_bpx_col2 label{
+    border-bottom: 1px solid black;
+} */
+.Details_inner_bpx_col_footer1:hover,.Details_inner_bpx_col_footer2:hover{
+   color: rgb(82, 80, 80);
+}
