@@ -1,5 +1,10 @@
 import "./Admin.css";
+import { useNavigate } from "react-router-dom"; 
 export default function Admin() {
+  const navigate= useNavigate();
+  function hanleClick(){
+navigate("/Details")
+  }
   return (
     <>
       <div className="Admin_container">
@@ -11,7 +16,7 @@ export default function Admin() {
           </div>
           <div className="Admin_row">
             <div className="Admin_inner">
-              <div>Owner Details</div>
+              <div onClick={hanleClick}>Owner Details</div>
               <div>Conductor Details</div>
               <div>User Details</div>
             </div>
@@ -23,7 +28,7 @@ export default function Admin() {
             <div className="Admin_inner">
               <div>Owner Beneficiary</div>
               <div>Consession</div>
-              <div>abc</div>
+              <div style={{backgroundColor:"white"}}></div>
             </div>
           </div>
         </div>

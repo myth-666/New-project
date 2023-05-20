@@ -52,33 +52,36 @@ margin-bottom: 20px;
 .Details_inner_box{
     font-weight: bold;
     display: flex;
-    flex-direction: row;
-    
+    flex-direction: column;
+    width: 100%;
   
 }
-.Details_inner_bpx_col,.Details_inner_bpx_col1,.Details_inner_bpx_col2{
-    display: flex;
-    flex-direction: column;
-    width: 20%;
-    text-align: center;
-}
-.Details_inner_bpx_col label,.Details_inner_bpx_col1 label,.Details_inner_bpx_col2 label{
+
+
+.Details_inner_box_row{
     background-color: rgb(179, 179, 179);
-    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+.col1{
     border: 1px solid black;
+    width: 100%;
 }
-.Details_inner_bpx_col_footer,.Details_inner_bpx_col_footer1,.Details_inner_bpx_col_footer2{
-    height: 40vh;
-    font-size: small;
+
+
+.foot,.foot1,.foot2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: x-small;
+    width: 100%;
+    border: 1px solid black;
+    
 }
-/* .Details_inner_bpx_col label{
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+.foot1 label,.foot2 label{
     border-bottom: 1px solid black;
 }
-.Details_inner_bpx_col1 label,.Details_inner_bpx_col2 label{
-    border-bottom: 1px solid black;
-} */
-.Details_inner_bpx_col_footer1:hover,.Details_inner_bpx_col_footer2:hover{
-   color: rgb(82, 80, 80);
+.foot1 label:hover,.foot2 label:hover{
+    color: gray;
 }
