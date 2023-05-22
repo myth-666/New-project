@@ -2,10 +2,14 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
 }
+.Home_container{
+    background-color: rgb(58, 110, 155);
+}
 .Home_inner_container{
    
     padding: 100px 30%;
-    height: 20vh;
+    background-color: rgb(171, 213, 226);
+    height: 60vh;
 }
 .Header{
     
@@ -23,7 +27,7 @@ body{
     font-weight: bold;
 }
 .Home_box{
-    border: 1px solid black;
+    background-color: rgb(109, 180, 221);
     padding: 20px;
     border-radius: 3px;
     
@@ -70,7 +74,7 @@ body{
     text-align: center;
     font-weight: bold;
 }
-.Home_inner div:hover{
+.Home_inner div:hover,.Home_inner1 div:hover{
     background-color: rgb(150, 149, 149);
 }
 .Home_row{
