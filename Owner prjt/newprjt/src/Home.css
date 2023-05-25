@@ -12,11 +12,24 @@ body{
     height: 60vh;
 }
 .Header{
+    display: flex;
+    flex-direction: row;
     
     padding-left: 20%;
+    padding-right: 20%;
     padding-top: 10%;
     font-size: larger;
     font-weight: bold;
+    justify-content: space-between;
+}
+.Header button{
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(175, 175, 175);
+}
+.Header button:hover{
+    background-color: rgb(150, 149, 149);
 }
 
 .header_text{
@@ -80,5 +93,10 @@ body{
 .Home_row{
     display: flex;
     flex-direction: row;
-    
+    width: 100%;
+}
+.header_text{
+    display: flex;
+    flex-direction: row;
+
 }

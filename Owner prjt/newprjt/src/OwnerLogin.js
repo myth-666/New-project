@@ -12,7 +12,7 @@ export default function OwnerLogin() {
           <input  type='password'/></div>
           
             <button>Login</button>
-            <label className='footer'>abc</label>
+            <label className='footer'>signup</label>
         </div>
       </div>
       </div>

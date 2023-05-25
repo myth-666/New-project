@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import App from './Navigation';
+import App from './Addbus';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

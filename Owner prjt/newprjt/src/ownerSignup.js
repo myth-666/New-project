@@ -1,5 +1,5 @@
 import './Signup.css'
-export default function Signup() {
+export default function ownerSignup() {
   return (
     <>
       <div className="App_container">
