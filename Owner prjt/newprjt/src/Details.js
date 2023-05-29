@@ -1,8 +1,10 @@
 import "./Details.css";
 import { useState ,useEffect} from "react";
+import { useNavigate } from "react-router-dom"; 
 import axios from "axios";
 export default function Details() {
   const [array, setArray] = useState([]);
+  const  navigate = useNavigate();
   const Delete = (e, id) => {
     // const temp = [...array];
     // temp.splice(indx, 1);
@@ -37,9 +39,12 @@ export default function Details() {
         setArray(res.data);
       })
       .catch((err) => {
-        console.log(err);
+        console.log(err); 
       });
   },[])
+  function Back(){
+    navigate("/")
+  }
   return (
     <>
       <div className="Details_container">
@@ -50,7 +55,7 @@ export default function Details() {
           <div className="Details_box">
             <div className="Details_inner_container_header">
               <div className="Back_button">
-                <button>Back</button>
+                <button onClick={Back}>Back</button>
               </div>
               <label>Owner Details</label>
             </div>

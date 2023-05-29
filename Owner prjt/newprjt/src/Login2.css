@@ -2,19 +2,19 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
   }
-  .App_inner_container{
+  .Login2_container{
   
     padding: 100px 40%;
     height: 20vh;
   }
-  .Header{
+  .Login2_Header{
       
     padding-left: 20%;
     padding-top: 10%;
     font-size: larger;
     font-weight: bold;
   }
-  .App_box{
+  .Login2_box{
    border: 1px solid black;
    padding-top: 40%;
    padding-bottom: 40%;
@@ -27,7 +27,7 @@ body{
     flex-direction: column;
   }
   
-  .App_row{
+  .Login2_row{
     font-weight:bold ;
     width: 100%;
     
@@ -36,7 +36,7 @@ body{
     flex-direction: column;
     margin-bottom: 10px; 
   }
-  .App_row input{
+  .Login2_row input{
     padding-bottom: 5px;
     padding-top: 5px;
     outline: none;
@@ -44,7 +44,7 @@ body{
     border-radius:2px ;
     background-color: rgb(207, 205, 205);
   }
-  .App_box button{
+  .Login2_box button{
     font-size: medium;
     margin-top: 20px;
     padding: 5px 59px;
@@ -54,20 +54,20 @@ body{
     border-radius: 2px;
     background-color: rgb(175, 175, 175);
   }
-  .App_box button:hover{
+  .Login2_box button:hover{
     background-color: rgb(150, 149, 149);
   }
-  .Footer{
+  .Login2Footer{
     width: 100%;
     text-align: right;
     
     margin-top: 20px;
   }
-  .Footer label{
+  .Login2Footer label{
    
    font-weight: bold;
 
   }
-  .Footer label:hover{
+  .Login2Footer label:hover{
     color: rgb(150, 149, 149);
   }

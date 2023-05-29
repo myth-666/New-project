@@ -2,19 +2,19 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
 }
-.Details_container{
-    background-color: rgb(58, 110, 155);
+.Payment_container{
+    /* background-color: rgb(58, 110, 155); */
 }
-.Details_container{
+.Payment_container{
    
-    padding: 100px 25%;
-    background-color: rgb(171, 213, 226);
-    height: 70vh;
+    padding-top: 5%;
+    /* background-color: rgb(171, 213, 226); */
+    height: 90vh;
 }
 
-.Details_box{
-    background-color: rgb(109, 180, 221);
-    
+.Payment_box{
+    /* background-color: rgb(109, 180, 221); */
+    border: 1px solid black;
     padding: 20px;
     
     border-radius: 3px;
@@ -23,7 +23,7 @@ body{
     display: flex;
     flex-direction: row;
 }
-.Details_inner_container_header{
+.Payment_inner_container_header{
 
 width: 100%;
 text-align: center;
@@ -32,50 +32,50 @@ display: flex;
 flex-direction: row;
 margin-bottom: 20px;
 }
-.Back_button{
+.PaymentBack_button{
     
     width: 40%;
     text-align: left;
 }
-.Back_button button{
+.PaymentBack_button button{
     border: none;
     outline: none;
     padding: 3px 10px;
     border-radius: 5px;
     background-color: rgb(196, 195, 195);
 }
-.Back_button button:hover{
+.PaymentBack_button button:hover{
     background-color: rgb(141, 140, 140);
 }
-.Details_inner_box{
+.Payment_box_left{
     font-weight: bold;
     display: flex;
     flex-direction: column;
     width: 100%;
-  
+    
 }
 
 
-.Details_inner_box_row{
+.Payment_inner_box_row{
     background-color: rgb(179, 179, 179);
     display: flex;
     flex-direction: row;
     text-align: center;
     align-items: center;
 }
-.col1{
+.Paymentcol1{
     border: 1px solid black;
     width: 100%;
 }
 
 
-.foot{
+.Paymentfoot{
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: smaller;
     width: 100%;
     border: 1px solid black;
-    height: 40vh;
+    height: 70vh;
 }
 /* .foot2 label{
     border-bottom: 1px solid black;
@@ -83,11 +83,11 @@ margin-bottom: 20px;
 .foot2 label:hover{
     color: gray;
 } */
-.Left_inner{
+.Payment_Left_inner{
   
     display: flex;
     flex-direction: column;
-
+    font-weight: bold; 
     padding: 30px;
 }
 .Payment_box_left{
@@ -98,30 +98,31 @@ margin-bottom: 20px;
    
     width: 50%;
 }
-.Left_inner_text{
+.Payment_Left_inner_text{
     display: flex;
     flex-direction: row;
     margin-bottom: 20px;
 }
-.Left_inner_text label{
+.Payment_Left_inner_text label{
 width: 50%;
 text-align: left;
 }
-.Left_inner_text input{
+.Payment_Left_inner_text input{
     outline: none;
     
 }
-.Left_inner_button{
+.Payment_Left_inner_button{
 
     text-align: right;
+    margin-right: 18.6%;
 }
-.Left_inner_button button{
+.Payment_Left_inner_button button{
     padding: 5px 62px;
     border-radius: 5px;
     background-color: rgb(196, 195, 195);
     border: none;
     outline: none;
 }
-.Left_inner_button button:hover{
+.Payment_Left_inner_button button:hover{
     background-color: rgb(141, 140, 140);
 }

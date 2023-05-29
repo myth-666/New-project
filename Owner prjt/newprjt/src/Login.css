@@ -2,19 +2,19 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
   }
-  .App_inner_container{
+  .OwnerLogin_container{
   
     padding: 100px 30%;
     height: 20vh;
   }
-  .Header{
+  .OwnerLoginHeader{
       
     padding-left: 20%;
     padding-top: 10%;
     font-size: larger;
     font-weight: bold;
   }
-  .App_box{
+  .OwnerLogin_box{
    border: 1px solid black;
     padding: 20px;
     border-radius: 3px;
@@ -24,7 +24,7 @@ body{
     flex-direction: column;
   }
   
-  .App_row{
+  .OwnerLogin_row{
     font-weight:bold ;
     width: 35%;
     
@@ -33,7 +33,7 @@ body{
     flex-direction: column;
     margin-bottom: 10px;
   }
-  .App_row input{
+  .OwnerLogin_row input{
     padding-bottom: 5px;
     padding-top: 5px;
     outline: none;
@@ -41,7 +41,7 @@ body{
     border-radius:2px ;
     background-color: rgb(207, 205, 205);
   }
-  .App_box button{
+  .OwnerLogin_box button{
     padding: 5px 63px;
     font-weight:bold ;
     outline: none;
@@ -49,15 +49,15 @@ body{
     border-radius: 2px;
     background-color: rgb(175, 175, 175);
   }
-  .App_box button:hover{
+  .OwnerLogin_box button:hover{
     background-color: rgb(150, 149, 149);
   }
-  .footer{
+  .OwnerLogin_footer{
     margin-top: 10px;
     background-color: rgb(175, 175, 175);
     border-radius: 2px;
     padding: 1px 6px;
   }
-  .footer:hover{
+  .OwnerLogin_footer:hover{
     background-color: rgb(150, 149, 149);
   }

@@ -1,40 +1,43 @@
 import "./Payment.css";
-
+import { useNavigate } from "react-router-dom";
 export default function Payment() {
-
+const navigate = useNavigate();
+function back(){
+  navigate("/Admin")
+}
  
   return (
     <>
-      <div className="Details_container">
+      <div className="Payment_container">
         
         
-          <div className="Details_box">
+          <div className="Payment_box">
             <div className="Payment_box_left">
-            <div className="Details_inner_container_header">
-              <div className="Back_button">
-                <button>Back</button>
+            <div className="Payment_inner_container_header">
+              <div className="PaymentBack_button">
+                <button onClick={back}>Back</button>
               </div>
               <label>View Details</label>
             </div>
-            <div className="Left_inner">
-                <div className="Left_inner_text"><label>Wallet</label><input type="text" /></div>
-                <div className="Left_inner_text"><label>Amount</label><input type="text" /></div>
-                <div className="Left_inner_button"><button>Request</button></div>
+            <div className="Payment_Left_inner">
+                <div className="Payment_Left_inner_text"><label>Wallet</label><input type="text" /></div>
+                <div className="Payment_Left_inner_text"><label>Amount</label><input type="text" /></div>
+                <div className="Payment_Left_inner_button"><button>Request</button></div>
             </div>
             </div>
             <div className="Payment_box_right">
-            <div className="Details_inner_box">
-              <div className="Details_inner_box_row">
-                <div className="col1">
+            <div className="Payment_inner_box">
+              <div className="Payment_inner_box_row">
+                <div className="Paymentcol1">
                   <label>Amount</label>
                 </div>
-                <div className="col1">
+                <div className="Paymentcol1">
                   <label>TransId</label>
                 </div>
-                <div className="col1">
+                <div className="Paymentcol1">
                   <label>Time</label>
                 </div>
-                <div className="col1">
+                <div className="Paymentcol1">
                   <label>Status</label>
                 </div>
                
@@ -42,19 +45,19 @@ export default function Payment() {
              
            
          
-              <div className="Details_inner_box_row">
-                <div className="foot">
+              <div className="Payment_inner_box_row">
+                <div className="Paymentfoot">
                   <label>500</label>
                 </div>
-                <div className="foot">
+                <div className="Paymentfoot">
                   <label></label>
                 </div>
             
-                <div className="foot">
+                <div className="Paymentfoot">
                   <label></label>
                 </div>
-                <div className="foot">
-                  <label>Pendind</label>
+                <div className="Paymentfoot">
+                  <label>Pending</label>
                 </div>
                 
 

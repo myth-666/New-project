@@ -3,11 +3,11 @@ body{
   margin: 0;
 }
 .App_container{
-  background-color: rgb(58, 110, 155);
+  /* background-color: rgb(58, 110, 155); */
     
 }
 .App_inner_container{
-  background-color: rgb(171, 213, 226);
+  /* background-color: rgb(171, 213, 226); */
   padding: 100px 30%;
   height: 50vh;
 }
@@ -19,8 +19,9 @@ body{
   font-weight: bold;
 }
 .App_box{
-  background-color: rgb(109, 180, 221);
+  /* background-color: rgb(109, 180, 221); */
   padding: 20px;
+  border: 1px solid black;
   border-radius: 3px;
   justify-content: right;
   align-items: end;
@@ -46,6 +47,7 @@ body{
   background-color: rgb(207, 205, 205);
 }
 .App_box button{
+  margin-top: 10px;
   padding: 5px 63px;
   font-weight:bold ;
   outline: none;

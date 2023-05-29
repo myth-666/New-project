@@ -2,19 +2,19 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
   }
-  .App_inner_container{
+  .ownerSignup_container{
    
     padding: 100px 30%;
     height: 20vh;
 }
-.Header{
+.ownerSignupHeader{
     
     padding-left: 20%;
     padding-top: 10%;
     font-size: larger;
     font-weight: bold;
 }
-  .App_box{
+  .ownerSignup_box{
    border: 1px solid black;
  
     padding: 20px;
@@ -24,16 +24,16 @@ body{
     display: flex;
     flex-direction: column;
   }
-  .Inner{
+  .ownerSignupInner{
     
     display: flex;
     flex-direction: row;
     justify-content: right;
   }
-  .Inner_right{
+  .ownerSignup_Inner_right{
     padding-left: 10px;
   }
-  .Inner_left,.Inner_right{
+  .ownerSignupInner_left,.ownerSignup_Inner_right{
     font-weight:bold ;
     width: 35%;
    
@@ -42,7 +42,7 @@ body{
     flex-direction: column;
     margin-bottom: 10px;
   }
-  .Inner_left input,.Inner_right input{
+  .ownerSignupInner_left input,.ownerSignup_Inner_right input{
     padding-bottom: 5px;
     padding-top: 5px;
     outline: none;
@@ -51,11 +51,11 @@ body{
     background-color: rgb(207, 205, 205);
   }
  
-  .Button{
+  .ownerSignupButton{
     
     width: 46%;
   }
-  .Button button{
+  .ownerSignupButton button{
     padding: 5px 63px;
     font-weight:bold ;
     outline: none;
@@ -63,6 +63,6 @@ body{
     border-radius: 2px;
     background-color: rgb(175, 175, 175);
   }
-  .App_box button:hover{
+  .ownerSignup_box button:hover{
     background-color: rgb(150, 149, 149);
   }

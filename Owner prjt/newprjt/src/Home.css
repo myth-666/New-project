@@ -3,12 +3,12 @@ body{
     margin: 0;
 }
 .Home_container{
-    background-color: rgb(58, 110, 155);
+    /* background-color: rgb(58, 110, 155); */
 }
 .Home_inner_container{
    
     padding: 100px 30%;
-    background-color: rgb(171, 213, 226);
+    /* background-color: rgb(171, 213, 226); */
     height: 60vh;
 }
 .Header{
@@ -40,10 +40,10 @@ body{
     font-weight: bold;
 }
 .Home_box{
-    background-color: rgb(109, 180, 221);
+    /* background-color: rgb(109, 180, 221); */
     padding: 20px;
     border-radius: 3px;
-    
+    border: 1px solid black;
     justify-content: left;
     display: flex;
     flex-direction: column;

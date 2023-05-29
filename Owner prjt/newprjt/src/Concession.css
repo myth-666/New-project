@@ -2,25 +2,25 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
   }
-  .App_container{
-    background-color: rgb(58, 110, 155);
+  .Concession_container{
+    /* background-color: rgb(58, 110, 155); */
   }
-  .App_inner_container{
-    background-color: rgb(171, 213, 226);
+  .Concession_inner_container{
+    /* background-color: rgb(171, 213, 226); */
     height: 60vh;
     padding: 100px 40%;
     
   }
-  .Header{
+  .Concession_Header{
       
     padding-left: 20%; 
     padding-top: 10%;
     font-size: larger;
     font-weight: bold;
   }
-  .App_box{
-    background-color: rgb(109, 180, 221);
-   
+  .Concession_box{
+    /* background-color: rgb(109, 180, 221); */
+   border: 1px solid black;
     border-radius: 3px;
     
     align-items: center;
@@ -29,7 +29,7 @@ body{
     
   }
   
-  .App_row{
+  /* .App_row{
     font-weight:bold ;
     width: 100%;
     
@@ -37,14 +37,14 @@ body{
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
-  }
+  } */
   
 
-  .App_box_header{
+  .Concession_box_header{
     padding-top: 10px;
     width: 90%;
   }
-  .App_box_header button{
+  .Concession_box_header button{
     outline: none;
     border: none;
     border-radius: 2px;
@@ -52,7 +52,7 @@ body{
     padding: 1px 2px;
     background-color: rgb(175, 175, 175);
   }
-  .App_innerbox{
+  .Concession_innerbox{
     padding-left: 18%;
     padding-right:18%;
     align-items: center;
@@ -61,17 +61,17 @@ body{
     padding-top: 50%;
     padding-bottom: 70%;
   }
-  .App_innerbox button{
+  .Concession_innerbox button{
     font-size: medium;
     margin-top: 20px;
     padding: 5px 57px;
-    font-weight:bold ;
+    font-weight:bold ; 
     outline: none;
     border: none;
     border-radius: 2px;
     background-color: rgb(175, 175, 175);
   }
   
-  .App_box button:hover{
+  .Concession_box button:hover{
     background-color: rgb(150, 149, 149);
   }

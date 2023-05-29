@@ -5,31 +5,31 @@ export default function Addstop() {
  
   return (
     <>
-      <div className="Details_container">
+      <div className="Addstop_container">
         
         
-          <div className="Details_box">
-            <div className="Payment_box_left">
-            <div className="Details_inner_container_header">
+          <div className="Addstop_box">
+            <div className="Addstop_box_left">
+            <div className="Addstop_inner_container_header">
               
               <label>Add stop</label>
             </div>
-            <div className="Left_inner">
-                <div className="Left_inner_text"><label>Stop</label><input type="text" /></div>
-                <div className="Left_inner_text"><label>KM</label><input type="text" /></div>
-                <div className="Left_inner_button"><button>Add</button><button>Save</button></div>
+            <div className="Addstop_Left_inner">
+                <div className="Addstop_Left_inner_text"><label>Stop</label><input type="text" /></div>
+                <div className="Addstop_Left_inner_text"><label>KM</label><input type="text" /></div>
+                <div className="Addstop_Left_inner_button"><button>Add</button><button>Save</button></div>
             </div>
             </div>
-            <div className="Payment_box_right">
-            <div className="Details_inner_box">
-              <div className="Details_inner_box_row">
-                <div className="col1">
+            <div className="Addstop_box_right">
+            <div className="Addstop_inner_box">
+              <div className="Addstop_inner_box_row">
+                <div className="Addstop_col1">
                   <label>NO</label>
                 </div>
-                <div className="col1">
+                <div className="Addstop_col1">
                   <label>Stop</label>
                 </div>
-                <div className="col1">
+                <div className="Addstop_col1">
                   <label>Km</label>
                 </div>
                
@@ -38,15 +38,15 @@ export default function Addstop() {
              
            
          
-              <div className="Details_inner_box_row">
-                <div className="foot">
+              <div className="Addstop_inner_box_row">
+                <div className="Addstop_foot">
                   <label>0</label>
                 </div>
-                <div className="foot">
+                <div className="Addstop_foot">
                   <label>Ankamaly</label>
                 </div>
             
-                <div className="foot">
+                <div className="Addstop_foot">
                   <label>0</label>
                 </div>
               

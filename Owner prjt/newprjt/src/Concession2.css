@@ -2,36 +2,36 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
   }
-  .App_container{
-    background-color: rgb(58, 110, 155);
+  .Concession2_container{
+    /* background-color: rgb(58, 110, 155); */
   }
-  .App_inner_container{
+  .Concession2_inner_container{
   
-    padding: 100px 40%;
-    background-color: rgb(171, 213, 226);
+    
+    /* background-color: rgb(171, 213, 226); */
     height: 60vh;
   }
-  .Header{ 
+  .Concession2_Header{ 
       
     padding-left: 20%;
     padding-top: 10%;
     font-size: larger;
     font-weight: bold;
   }
-  .App_box{
-    background-color: rgb(109, 180, 221);
-    
+  .Concession2_box{
+    /* background-color: rgb(109, 180, 221); */
+    border: 1px solid black;
      border-radius: 3px;
      
      align-items: center;
      display: flex;
      flex-direction: column;
    }
-   .App_box_header{
+   .Concession2_box_header{
     padding-top: 10px;
     width: 90%;
   }
-  .App_box_header button{
+  .Concession2_box_header button{
     outline: none;
     border: none;
     border-radius: 2px;
@@ -39,10 +39,10 @@ body{
     padding: 1px 2px;
     background-color: rgb(175, 175, 175);
   }
-  .App_box_header button:hover{
+  .Concession2_box_header button:hover{
     background-color: rgb(150, 149, 149);
   }
-  .App_innerbox{
+  .Concession2_innerbox{
     width: 90%;
     
     align-items: center;
@@ -54,7 +54,7 @@ body{
     display: flex;
     flex-direction: row;
   }
- .Col1{
+ .Concession2_Col1{
     display: flex;
     flex-direction: column;
     background-color: rgb(167, 167, 167);
@@ -62,11 +62,11 @@ body{
     justify-content: space-between;
  }
   
- .Col1 label{
+ .Concession2_Col1 label{
    text-align: center;
-    font-size: small;
+    
     border: 1px solid black;
  }
- .col1footer{
+ .Concession2_col1footer{
     height: 40vh; 
  }

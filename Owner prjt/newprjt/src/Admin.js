@@ -6,6 +6,15 @@ export default function Admin() {
   function hanleClick(){
 navigate("/Details")
   }
+  function hanleClick1(){
+    navigate("/Payment")
+      }
+      function hanleClick2(){
+        navigate("/Concession")
+          }
+          function Signout(){
+            navigate("/")
+              }
   return (
     <>
       <div className="Admin_container">
@@ -13,7 +22,7 @@ navigate("/Details")
         <div className="Admin_inner_container" style={{ backgroundImage: `url(${bg})` }}>
         <div className="Admin_box">
           <div className="Admin_header">
-            <button>Sign out</button>
+            <button onClick={Signout}>Sign out</button>
           </div>
           <div className="Admin_row">
             <div className="Admin_inner">
@@ -22,13 +31,13 @@ navigate("/Details")
               <div>User Details</div>
             </div>
             <div className="Admin_inner">
-              <div>Owner Payment</div>
+              <div onClick={hanleClick1}>Owner Payment</div>
               <div>Passenger Wallet</div>
               <div>Fare Table</div>
             </div>
             <div className="Admin_inner">
               <div>Owner Beneficiary</div>
-              <div>Consession</div>
+              <div onClick={hanleClick2}>Consession</div>
               <div style={{backgroundColor:"  rgb(109, 180, 221)"}}></div>
             </div>
           </div>

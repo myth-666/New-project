@@ -3,15 +3,16 @@ body{
     margin: 0;
 }
 .Details_container{
-    background-color: rgb(58, 110, 155);
+    /* background-color: rgb(58, 110, 155); */
 }
 .Details_inner_container{
    
-    padding: 100px 25%;
-    background-color: rgb(171, 213, 226);
-    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(171, 213, 226); */
+    height: 80vh;
 }
-.Header{
+.Header{ 
     
     padding-left: 20%;
     padding-top: 10%;
@@ -19,7 +20,7 @@ body{
     font-weight: bold;
 }
 .Details_box{
-    background-color: rgb(109, 180, 221);
+    /* background-color: rgb(109, 180, 221); */
     
     padding: 20px;
     padding-bottom: 50px;
@@ -38,11 +39,12 @@ display: flex;
 flex-direction: row;
 margin-bottom: 20px;
 }
-.Back_button{
-    
-    width: 40%;
-    text-align: left;
+.Details_inner_container_header label{
+   
+    width: 100%;
+    margin-right: 5%;
 }
+
 .Back_button button{
     border: none;
     outline: none;
@@ -78,10 +80,10 @@ margin-bottom: 20px;
 .foot,.foot1,.foot2{
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: x-small;
+    
     width: 100%;
     border: 1px solid black;
-    
+    height: 40vh;
 }
 .foot1 label,.foot2 label{
     border-bottom: 1px solid black;

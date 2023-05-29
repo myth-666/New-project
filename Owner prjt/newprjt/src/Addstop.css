@@ -2,19 +2,16 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
 }
-.Details_container{
-    background-color: rgb(58, 110, 155);
-}
-.Details_container{
-   
-    padding: 100px 25%;
-    background-color: rgb(171, 213, 226);
-    height: 70vh;
+.Addstop_container{
+  
+
+    /* background-color: rgb(171, 213, 226); */
+    padding-top: 10%;
 }
 
-.Details_box{
-    background-color: rgb(109, 180, 221);
-    
+.Addstop_box{
+    /* background-color: rgb(109, 180, 221); */
+    border: 1px solid black;
     padding: 20px;
     
     border-radius: 3px;
@@ -23,7 +20,7 @@ body{
     display: flex;
     flex-direction: row;
 }
-.Details_inner_container_header{
+.Addstop_inner_container_header{
 
 width: 100%;
 text-align: center;
@@ -31,7 +28,7 @@ font-weight: bold;
 
 margin-bottom: 20px;
 }
-.Back_button{
+/* .Back_button{
     
     width: 40%;
     text-align: left;
@@ -45,8 +42,8 @@ margin-bottom: 20px;
 }
 .Back_button button:hover{
     background-color: rgb(141, 140, 140);
-}
-.Details_inner_box{
+} */
+.Addstop_inner_box{
     font-weight: bold;
     display: flex;
     flex-direction: column;
@@ -55,20 +52,20 @@ margin-bottom: 20px;
 }
 
 
-.Details_inner_box_row{
+.Addstop_inner_box_row{
     background-color: rgb(179, 179, 179);
     display: flex;
     flex-direction: row;
     text-align: center;
     align-items: center;
 }
-.col1{
+.Addstop_col1{
     border: 1px solid black;
     width: 100%;
 }
 
 
-.foot{
+.Addstop_foot{
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: smaller;
@@ -82,46 +79,46 @@ margin-bottom: 20px;
 .foot2 label:hover{
     color: gray;
 } */
-.Left_inner{
+.Addstop_Left_inner{
   
     display: flex;
     flex-direction: column;
 
     padding: 30px;
 }
-.Payment_box_left{
+.Addstop_box_left{
    
     width: 50%;
 }
-.Payment_box_right{
+.Addstop_box_right{
    
     width: 50%;
 }
-.Left_inner_text{
+.Addstop_Left_inner_text{
     display: flex;
     flex-direction: row;
     margin-bottom: 20px;
 }
-.Left_inner_text label{
+.Addstop_Left_inner_text label{
 width: 50%;
 text-align: left;
 }
-.Left_inner_text input{
+.Addstop_Left_inner_text input{
     outline: none;
     width: 50%;
 }
-.Left_inner_button{
+.Addstop_Left_inner_button{
 display: flex;
 flex-direction: row;
 justify-content: space-between;
 }
-.Left_inner_button button{
+.Addstop_Left_inner_button button{
     padding: 5px 40px;
     border-radius: 5px;
     background-color: rgb(196, 195, 195);
     border: none;
     outline: none;
 }
-.Left_inner_button button:hover{
+.Addstop_Left_inner_button button:hover{
     background-color: rgb(141, 140, 140);
 }

@@ -2,25 +2,25 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
   }
-  .App_container{
-    background-color: rgb(58, 110, 155);
+  .Concession1_container{
+    /* background-color: rgb(58, 110, 155); */
   }
-  .App_inner_container{
+  .Concession1_inner_container{
   
     padding: 100px 40%;
-    background-color: rgb(171, 213, 226);
+    /* background-color: rgb(171, 213, 226); */
     height: 80vh;
   }
-  .Header{
+  .Concession1_Header{
       
     padding-left: 20%; 
     padding-top: 10%;
     font-size: larger;
     font-weight: bold;
   }
-  .App_box{
-    background-color: rgb(109, 180, 221);
-   
+  .Concession1_box{
+    /* background-color: rgb(109, 180, 221); */
+   border: 1px solid black;
     border-radius: 3px;
     
     align-items: center;
@@ -36,7 +36,7 @@ body{
     
   }
   
-  .App_row{
+  .Concession1_row{
     font-weight:bold ;
     width: 100%;
     
@@ -45,10 +45,10 @@ body{
     flex-direction: column;
     margin-bottom: 10px;
   }
-  .App_row label,.App_row2 label{
+  .Concession1_row label,.Concession1_row label{
     margin-bottom: 5px;
   }
-  .App_row input, .App_row select{
+  .Concession1_row input, .Concession1_row select{
     margin-right: 40px;
     padding-bottom: 5px;
     padding-top: 5px;
@@ -61,7 +61,7 @@ body{
 
 
 
-  .App_box button{
+  .Concession1_box button{
     margin-right: 40px;
     font-size: medium;
     margin-top: 20px;
@@ -73,25 +73,25 @@ body{
     background-color: rgb(175, 175, 175);
   }
 
-  .App_box button:hover{
+  .Concession1_box button:hover{
     background-color: rgb(150, 149, 149);
   }
-  .App_row_select{
+  .Concession1_row_select{
     width: 47%;
   }
-  .App_row_middle{
+  .Concession1_row_middle{
     width: 100%;
     display: flex;
     flex-direction: row;
   justify-content: space-between;
   }
-  .App_row2{
+  .Concession1_row2{
     display: flex;
     flex-direction: column;
     font-weight: bold;
     box-sizing: border-box;
   }
-  .App_row2 select{
+  .Concession1_row2 select{
     width: 100%;
     padding-bottom: 5px;
     padding-top: 5px;

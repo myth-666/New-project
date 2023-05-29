@@ -1,5 +1,10 @@
 import './App.css'
+import {useNavigate} from "react-router-dom"
 export default function AdminLogin() {
+  const navigate = useNavigate();
+  function login(){
+navigate("/Admin")
+  }
   return (
     <>
       <div className="App_container">
@@ -7,11 +12,11 @@ export default function AdminLogin() {
         <div className="App_inner_container">
         <div className="App_box">
         <div className='App_row'><label>Username</label>
-          <input type='text' /></div>
+          <input type='App_text' /></div>
           <div className='App_row'><label>Password</label>
-          <input  type='password'/></div>
+          <input  type='App_password'/></div>
           
-            <button>Login</button>
+            <button onClick={login}>Login</button>
           
         </div>
         </div>
