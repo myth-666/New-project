@@ -2,19 +2,19 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
   }
-  .App_inner_container{
+  .Userwallet_inner_container{
   
     padding: 100px 40%;
     height: 20vh;
   }
-  .Header{
+  .UserwalletHeader{
       
     padding-left: 20%; 
     padding-top: 10%;
     font-size: larger;
     font-weight: bold;
   }
- .App_box{
+ .Userwallet_box{
     border: 1px solid black;
     border-radius: 3px;
     
@@ -22,7 +22,7 @@ body{
     display: flex;
     flex-direction: column;
  }
- .App_header{
+ .Userwallet_header{
    
     width: 85%;
     padding-top: 20px;
@@ -32,10 +32,10 @@ body{
     flex-direction: row;
     justify-content: space-between;
  }
- .App_header_label{
+ .Userwallet_header_label{
     margin-right: 10px;
  }
- .App_header button{
+ .Userwallet_header button{
     font-size: small;
     font-weight:bold ;
     outline: none;
@@ -43,14 +43,14 @@ body{
     border-radius: 2px;
     background-color: rgb(175, 175, 175);
  }
- .App_middle{
+ .Userwallet_middle{
     
     display: flex;
     flex-direction: column;
     padding-top: 50%;
     padding-bottom: 30%;
  }
- .App_middle button{
+ .Userwallet_middle button{
     font-weight:bold ;
     outline: none;
     border: none;
@@ -59,14 +59,14 @@ body{
     padding: 5px 53px;
     margin-bottom: 30px;
  }
- .App_footer{
+ .Userwallet_footer{
     
     width: 100%;
     margin-bottom: 10%;
     text-align: right;
     width: 85%;
  }
- .App_footer button{
+ .Userwallet_footer button{
     font-weight:bold ;
     outline: none;
     border: none;
@@ -74,7 +74,7 @@ body{
     padding: 18px 10px;
     background-color: rgb(175, 175, 175);
  }
- .App_middle button:hover,.App_header button:hover,.App_footer button:hover{
+ .Userwallet_middle button:hover,.Userwallet_header button:hover,.Userwallet_footer button:hover{
     background-color: rgb(150, 149, 149);
  }
  

@@ -19,7 +19,7 @@ export default function Details() {
         console.log(res.data);
 
        
-      })
+      }) 
       .catch((err) => {
         console.log(err);
       });

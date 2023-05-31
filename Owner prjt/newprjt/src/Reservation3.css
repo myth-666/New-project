@@ -2,19 +2,19 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
   }
-  .App_inner_container{
+  .Reservation3_inner_container{
   
     padding: 100px 40%;
     height: 20vh;
   }
-  .Header{
+  .Reservation3Header{
       
     padding-left: 20%; 
     padding-top: 10%;
     font-size: larger;
     font-weight: bold;
   }
-  .App_box{
+  .Reservation3_box{
    border: 1px solid black;
    
     border-radius: 3px;
@@ -25,7 +25,7 @@ body{
     
   }
   
-  .App_row{
+  .Reservation3_row{
     font-weight:bold ;
     width: 100%;
     
@@ -34,10 +34,10 @@ body{
     flex-direction: column;
     margin-bottom: 10px;
   }
-  .App_row label{
+  .Reservation3_row label{
     margin-bottom: 5px;
   }
-  .App_row input, .App_row select{
+  .Reservation3_row input, .Reservation3_row select{
     padding-bottom: 5px;
     padding-top: 5px;
     outline: none;
@@ -59,11 +59,11 @@ body{
     background-color: rgb(150, 149, 149);
   } */
 
-  .App_box_header{
+  .Reservation3_box_header{
     padding-top: 10px;
     width: 90%;
   }
-  .App_box_header button{
+  .Reservation3_box_header button{
     outline: none;
     border: none;
     border-radius: 2px;
@@ -71,7 +71,7 @@ body{
     padding: 1px 2px;
     background-color: rgb(175, 175, 175);
   }
-  .App_innerbox{
+  .Reservation3_innerbox{
     padding-left: 18%;
     padding-right:18%;
     align-items: center;
@@ -80,7 +80,7 @@ body{
     padding-top: 20%;
     padding-bottom: 20%;
   }
-  .App_innerbox button{
+  .Reservation3_innerbox button{
     width: 100%;
     font-size: medium;
     margin-top: 20px;
@@ -91,14 +91,14 @@ body{
     border-radius: 2px;
     background-color: rgb(175, 175, 175);
   }
-  .App_row_select{
+  .Reservation3_row_select{
     width: 20%;
   }
-  .App_row_input{
+  .Reservation3_row_input{
     width: 40%;
     
     
   }
-  .App_box button:hover{
+  .Reservation3_box button:hover{
     background-color: rgb(150, 149, 149);
   }

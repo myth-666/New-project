@@ -2,19 +2,20 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
 }
-.Details_container{
-    background-color: rgb(58, 110, 155);
+.viewtrip_container{
+    /* background-color: rgb(58, 110, 155); */
+    padding-top: 10%;
 }
-.Details_container{
+.viewtrip_container{
    
-    padding: 100px 25%;
-    background-color: rgb(171, 213, 226);
+    
+    /* background-color: rgb(171, 213, 226); */
     height: 70vh;
 }
 
-.Details_box{
-    background-color: rgb(109, 180, 221);
-    
+.viewtrip_box{
+    /* background-color: rgb(109, 180, 221); */
+    border: 1px solid black;
     padding: 20px;
     padding-bottom: 50px;
     border-radius: 3px;
@@ -23,7 +24,7 @@ body{
     display: flex;
     flex-direction: column;
 }
-.Details_inner_container_header{
+.viewtrip_inner_container_header{
 
 width: 100%;
 text-align: center;
@@ -32,22 +33,22 @@ display: flex;
 flex-direction: row;
 margin-bottom: 20px;
 }
-.Back_button{
+.viewtripBack_button{
     
     width: 40%;
     text-align: left;
 }
-.Back_button button{
+.viewtripBack_button button{
     border: none;
     outline: none;
     padding: 3px 10px;
     border-radius: 5px;
     background-color: rgb(196, 195, 195);
 }
-.Back_button button:hover{
+.viewtripBack_button button:hover{
     background-color: rgb(141, 140, 140);
 }
-.Details_inner_box{
+.viewtrip_inner_box{
     font-weight: bold;
     display: flex;
     flex-direction: column;
@@ -56,20 +57,20 @@ margin-bottom: 20px;
 }
 
 
-.Details_inner_box_row{
+.viewtrip_inner_box_row{
     background-color: rgb(179, 179, 179);
     display: flex;
     flex-direction: row;
     text-align: center;
     align-items: center;
 }
-.col1{
+.viewtripcol1{
     border: 1px solid black;
     width: 100%;
 }
 
 
-.foot,.foot2{
+.viewtripfoot,.viewtripfoot2{
     padding-top: 10px;
     padding-bottom: 10px;
     
@@ -77,9 +78,9 @@ margin-bottom: 20px;
     border: 1px solid black;
     height: 40vh;
 }
-.foot2 label{
+.viewtripfoot2 label{
     border-bottom: 1px solid black; 
 }
-.foot2 label:hover{
+.viewtripfoot2 label:hover{
     color: gray;
 }

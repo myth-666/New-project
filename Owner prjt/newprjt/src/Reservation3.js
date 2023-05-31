@@ -2,17 +2,17 @@ import "./Reservation3.css";
 export default function Reservation3() {
   return (
     <>
-      <div className="App_container">
-        <div className="Header">
+      <div className="Reservation3_container">
+        <div className="Reservation3Header">
           <label>Reservation3</label>
         </div>
-        <div className="App_inner_container">
-          <div className="App_box">
-            <div className="App_box_header">
+        <div className="Reservation3_inner_container">
+          <div className="Reservation3_box">
+            <div className="Reservation3_box_header">
               <button>Back</button>
             </div>
-            <div className="App_innerbox">
-              <div className="App_row">
+            <div className="Reservation3_innerbox">
+              <div className="Reservation3_row">
                 <label>Source</label>
                 <select>
                   <option></option>Select<option>Ankamaly</option>
@@ -20,7 +20,7 @@ export default function Reservation3() {
                   <option>Edappally</option>
                 </select>
               </div>
-              <div className="App_row">
+              <div className="Reservation3_row">
                 <label>Destination</label>
                 <select>
                   <option></option>Select<option>Muvatupuzha</option>
@@ -28,9 +28,9 @@ export default function Reservation3() {
                   <option>Paravoor</option>
                 </select>
               </div>
-              <div className="App_row">
+              <div className="Reservation3_row">
                 <label>Count</label>
-                <select className="App_row_select">
+                <select className="Reservation3_row_select">
                   <option></option>
                   <option>1</option>
                   <option>2</option>
@@ -42,9 +42,9 @@ export default function Reservation3() {
                 </select>
               </div>
 
-              <div className="App_row">
+              <div className="Reservation3_row">
                 <label>seat</label>
-                <select className="App_row_select">
+                <select className="Reservation3_row_select">
                   <option></option>
                   <option>1</option>
                   <option>2</option>
@@ -53,8 +53,8 @@ export default function Reservation3() {
                   
                 </select>
               </div>
-              <div className='App_row'><label>Amount</label>
-          <input  type='text' className='App_row_input'/></div>
+              <div className='Reservation3_row'><label>Amount</label>
+          <input  type='text' className='Reservation3_row_input'/></div>
               <button>Book</button>
             </div>
           </div>

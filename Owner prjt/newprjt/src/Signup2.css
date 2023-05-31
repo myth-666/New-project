@@ -2,19 +2,19 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
   }
-  .App_inner_container{
+  .Signup2_inner_container{
   
     padding: 100px 40%;
     height: 20vh;
   }
-  .Header{
+  .Signup2Header{
       
     padding-left: 20%; 
     padding-top: 10%;
     font-size: larger;
     font-weight: bold;
   }
-  .App_box{
+  .Signup2_box{
    border: 1px solid black;
    padding-top: 15%;
    padding-bottom: 15%;
@@ -28,7 +28,7 @@ body{
     
   }
   
-  .App_row{
+  .Signup2_row{
     font-weight:bold ;
     width: 100%;
     
@@ -37,10 +37,10 @@ body{
     flex-direction: column;
     margin-bottom: 10px;
   }
-  .App_row label{
+  .Signup2_row label{
     margin-bottom: 5px;
   }
-  .App_row input, .App_row select{
+  .Signup2_row input, .Signup2_row select{
     padding-bottom: 5px;
     padding-top: 5px;
     outline: none;
@@ -48,7 +48,7 @@ body{
     border-radius:2px ;
     background-color: rgb(207, 205, 205);
   }
-  .App_box button{
+  .Signup2_box button{
     font-size: medium;
     margin-top: 20px;
     padding: 5px 53px;
@@ -58,6 +58,6 @@ body{
     border-radius: 2px;
     background-color: rgb(175, 175, 175);
   }
-  .App_box button:hover{
+  .Signup2_box button:hover{
     background-color: rgb(150, 149, 149);
   }

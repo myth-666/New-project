@@ -3,10 +3,10 @@ import img from './img.avif'
 export default function Scan() {
   return (
     <>
-      <div className="App_container">
-      <div className="Header"><label>Scan</label></div>
-      <div className="App_inner_container">
-        <div className="App_box">
+      <div className="Scan_container">
+      <div className="ScanHeader"><label>Scan</label></div>
+      <div className="Scan_inner_container">
+        <div className="Scan_box">
         <img src={img}/>
            
         </div>

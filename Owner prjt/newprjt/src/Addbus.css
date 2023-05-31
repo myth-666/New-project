@@ -69,17 +69,20 @@ margin-bottom: 20px;
 }
 
 
-.Addbus_foot{
+.Addbus_foot,.Addbus_foot1{
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: small;
     width: 100%;
-    border: 1px solid black;
-    height: 60vh;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    
 }
 .Addbus_foot input{
     width: 40%;
 }
+
 /* .foot2 label{
     border-bottom: 1px solid black;
 }
@@ -110,9 +113,13 @@ margin-bottom: 20px;
 width: 50%;
 text-align: left;
 }
-.Addbus_Left_inner_text input,.Addbus_Left_inner_text select{
+.Addbus_Left_inner_text input{
     outline: none;
     width: 50%;
+}
+.Addbus_Left_inner_text select{
+    outline: none;
+    width: 51%;
 }
 .Addbus_Left_inner_button{
 display: flex;
@@ -129,4 +136,10 @@ justify-content: space-between;
 }
 .Addbus_Left_inner_button button:hover{
     background-color: rgb(141, 140, 140);
+}
+.Addbus_foot1 label{
+    border-bottom: 1px solid black;
+}
+.Addbus_foot1 label:hover{
+    color: gray;
 }

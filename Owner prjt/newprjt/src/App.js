@@ -12,9 +12,9 @@ navigate("/Admin")
         <div className="App_inner_container">
         <div className="App_box">
         <div className='App_row'><label>Username</label>
-          <input type='App_text' /></div>
+          <input type='text' /></div>
           <div className='App_row'><label>Password</label>
-          <input  type='App_password'/></div>
+          <input  type='password'/></div>
           
             <button onClick={login}>Login</button>
           
