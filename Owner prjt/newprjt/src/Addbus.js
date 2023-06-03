@@ -35,19 +35,19 @@ export default function Addbus() {
         .then((res) => {
           console.log(res.data);
          
-         let id=res.data.insertId
-         localStorage.setItem("uid",id)
-         console.log(id)
+       
+        
         }) 
         .catch((err) => {
           console.log(err);
         });
     };
-    const save=()=>{
-      var uid=localStorage.getItem("uid")
-      const url = "http://localhost:4000/addbus";
-      const data = {conductorid:Conductor,
-        id:uid};
+    const save=(e,id)=>{
+      
+      console.log("insertid=>",id)
+      const url = "http://localhost:4000/updateConductorID";
+      const data ={ConductorID:Conductor,
+      id:id}
       const header = {};
       console.log(header);
       axios
@@ -55,9 +55,7 @@ export default function Addbus() {
         .then((res) => {
           console.log(res.data);
          
-         let id=res.data.insertId
-         localStorage.setItem("uid",id)
-         console.log(id)
+        
         }) 
         .catch((err) => {
           console.log(err);
@@ -124,7 +122,7 @@ export default function Addbus() {
   return(
     <><div className="Addbus_inner_box_row">
     <div className="Addbus_foot">
-      <label>{itm.id}</label>
+      <label>{itm.Busid}</label>
     </div>
     <div className="Addbus_foot">
       <label>{itm.Busno}</label>
@@ -137,10 +135,10 @@ export default function Addbus() {
       <input type="text" value={Conductor} onChange={(e)=>{setConductor(e.target.value)}} />
     </div>
     <div className="Addbus_foot">
-      <label>Alex</label>
+      <label>Name</label>
     </div>
     <div className="Addbus_foot1">
-      <label onClick={(e)=>{save(e)}}>Save</label>
+      <label onClick={(e)=>{save(e,itm.Busid)}}>Save</label>
     </div>
   </div>
     </>

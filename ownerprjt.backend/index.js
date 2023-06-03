@@ -37,7 +37,7 @@ app.post("/Delete", (req, res) => {
   });
 });
 app.post("/Busdetails", (req, res) => {
-  let sql = "SELECT * FROM tblBus;";
+  let sql = "SELECT Busid,Busno,ConductorID FROM tblbus ;";
   con.query(sql, (err, result) => {
     if (err) res.send(err);
     else res.send(result);
@@ -54,16 +54,33 @@ app.post("/addbus", (req, res) => {
       res.send(result);
     });
 });
-app.post("/insertconductor",(res,req)=>{
-  let a = req.body.conductorid;
-  let id=req.body.id
-  let sql="UPDATE `tblBus` SET `ConductorID` = '"+a+"' WHERE (`id` = '"+id+"');";
+// app.post("/insertconductor",(res,req)=>{
+//   let a = req.body.ConductorID;
+//   let id=req.body.id
+//   let sql="UPDATE tblbus SET ConductorID = '"+a+"' WHERE (id = '"+id+"');";
+//   console.log(sql);
+//   con.query(sql, (err, result) => {
+//     if (err) throw err;
+//     else console.log(result);
+//     res.send(result);
+//   });
+// })
+app.post("/updateConductorID", (req, res) => {
+  let a = req.body.ConductorID;
+  
+  let id = req.body.id;
+  let sql =
+    "update tblbus  set ConductorID='" +
+    a +
+    "' where Busid='" +
+    id +
+    "';";
   con.query(sql, (err, result) => {
-    if (err) throw err;
-    else console.log(result);
-    res.send(result);
+    console.log(sql);
+    if (err) res.send(err);
+    else res.send(result);
   });
-})
+});
 app.listen(4000, () => {
   console.log("server is running");
 });
